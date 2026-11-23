@@ -1,0 +1,167 @@
+/* All common css start */
+*{
+margin: 0;
+padding: 0;
+}
+h1,h2,h3,h4,h5,p{
+padding: 0;
+margin: 0;
+line-height: 0.8;
+}
+/* All common css end */
+/* Navbar start */
+#Navbar{
+background:#07110D;
+padding: 30px 0;
+margin: 0 auto;
+}
+.container{
+display: flex;
+align-items: center;
+}
+.Logo{
+padding-left:260px;
+}
+.menu ul,ol{
+list-style-type: none;    
+display: flex;
+column-gap: 40px;
+}
+.menu{
+padding-left: 635px;
+display: flex;
+align-items: center;
+column-gap: 40px;
+}
+.menu ul li a{
+text-decoration: none;
+color: #9DB3A8;
+font-size: 15px;
+font-weight: 500;
+font-family: "Inter", sans-serif;
+}
+.one{
+padding: 12px 22px;
+background:#1FB57F;
+border-radius: 999px;
+color: #07110D;
+text-decoration: none;
+font-size: 14px;
+font-width: 600;
+font-family: "Inter", sans-serif;
+}
+/* Navbar end */
+
+
+/* Banner part start */
+#bannerpart{
+padding-top: 60px;
+padding-bottom: 100px;
+background: #07110D;
+}
+.banner{
+display: flex;
+align-items: center;
+padding-left: 260px;
+
+}
+.BannerLeft{
+width: 60%;
+padding-left: 260px;
+}
+.bannerRight{
+width: 40%;
+position: relative;
+margin-left: 250px;
+}
+.bannerRight img{
+height:620px ;
+width: 525px;
+}
+.rankCard{
+padding: 18px 22px;
+background: #07110D;
+border-radius: 18px;
+position: absolute;
+left: 22px;
+bottom: 10px;
+}
+.rankCard h3{
+ color: #F4EFE6;   
+font-size: 28px;
+font-family: "Bebas Neue", sans-serif;
+text-transform: uppercase;
+font-weight: 400;
+padding-bottom: 5px;
+
+}
+.rankCard p{
+ color: #9DB3A8;   
+font-size: 15px;
+font-weight: 400;
+font-family: "Inter", sans-serif;
+}
+.bannerLeft h4{
+color: #1FB57F;
+font-size: 15px;
+font-weight: 600;
+font-family: "Inter", sans-serif;
+margin-left: 55px;
+text-transform: uppercase;
+}
+.bannerLeft h4::after{
+height: 3px;
+width: 40px;
+background: #F42A41;
+left: 0;
+top: 0;
+position: absolute;
+content:'' '' ;
+margin-left: 260px;
+margin-top: 167px;
+}
+.bannerLeft h1{
+color: #F4EFE6;
+font-size: 148px;
+font-weight: 400;
+font-family: "Bebas Neue", sans-serif;
+width: 460px;
+padding-top: 44px;
+padding-bottom: 28px;
+line-height: 88%;
+text-transform: uppercase;
+}
+.bannerLeft p{
+color: #9DB3A8;
+font-size: 19px;
+font-weight: 400;
+font-family: "Inter", sans-serif;
+width: 560px;
+line-height: 155%;
+padding-bottom: 28px;
+}
+.btn{
+display: flex;
+align-items: center;
+column-gap: 15px;
+
+}
+.btn a{
+padding: 16px 28px;
+background:#F42A41;
+border-radius: 999px;
+color: #F4EFE6;
+text-decoration: none;
+font-size: 16px;
+font-width: 600;
+font-family: "Inter", sans-serif;
+border: 1px solid #F42A41;
+transition: .4s;
+}
+.btn a:hover{
+background: transparent;
+border: 1px solid #1FB57F;
+
+}
+
+/* Banner part End */
